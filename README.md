@@ -3,7 +3,7 @@
 Description:
 The Inches Converter App is a mobile application developed using Java for Android/iOS platforms that allows users to convert measurements between inches and other commonly used length units. This app provides a simple and intuitive interface for users to input a value in inches and instantly get the corresponding conversion in various units.
 
-![app_screen_1](https://github.com/Vaniko1/InchesConverterApp/assets/115501603/12922937-c766-4eb9-8d4f-12d5188fdbbc)
+![app_screen_1](https://github.com/Vaniko1/InchesConverterApp/assets/115501603/072fb8b0-fbe4-49dd-976a-d89b44dc08dd)
 
 #
 
@@ -27,4 +27,4 @@ Usage:
 3) Press one of three buttons to convert.
 4) The converted value will be displayed instantly.
 
-![app_screen_2](https://github.com/Vaniko1/InchesConverterApp/assets/115501603/ff13c6a3-60e9-46a9-a582-7775f32cfd7e)
+![app_screen_2](https://github.com/Vaniko1/InchesConverterApp/assets/115501603/e4940dde-16c9-4306-a403-60e2fda0585e)
