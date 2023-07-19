@@ -26,31 +26,74 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
-        android:hint="Enter Inches"
+        android:hint="Enter inches"
         android:inputType="number"
-        android:textColorHint="#fff"
         android:textColor="#fff"
+        android:textColorHint="#fff"
         android:textSize="20dp" />
 
-    <Button
-        android:id="@+id/calculateButton"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#008300"
-        android:text="Calculate to meters" />
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/resultTextView"
+        <Button
+            android:id="@+id/metersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:backgroundTint="#008300"
+            android:text="m" />
+
+        <Button
+            android:id="@+id/centimetersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#008300"
+            android:text="cm" />
+
+        <Button
+            android:id="@+id/millimetersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:backgroundTint="#008300"
+            android:text="mm" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:textColor="#fff"/>
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#005003"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Result:"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="#34C600"
+            android:gravity="center_horizontal"
+            android:textColor="#fff" />
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:text="Made By Vaniko Nozadze"
+        android:layout_marginTop="100dp"
+        android:text="Made by Vaniko Nozadze"
         android:textColor="#fff" />
 
 </LinearLayout>
